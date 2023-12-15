@@ -1,0 +1,4 @@
+kivy==2.0.0
+kivymd==0.104.2
+python-dotenv==0.19.1
+google-generativeai==0.0.1  # Update with the correct version if available

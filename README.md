@@ -1,52 +1,62 @@
-# Gemni-Python-API
-<img width="1600" alt="Screenshot 2023-12-14 at 04 46 39" src="https://github.com/SetuBaru/Gemni-Python-API/assets/78774159/d77d5160-30a6-4694-be2b-c7dc9918ea41">
+# Gemini Chat App
+<img width="804" alt="Gemini APP Screenshot" src="https://github.com/SetuBaru/Gemni-Python-API/assets/78774159/485a9aad-02e6-4d4f-989a-57a7764a67d4">
 
-## An Unofficial Wrapper for the Gemini API's python SDK
+### Gemini Chat App is a simple chat application powered by GenAI for generating conversational responses.
+<br> 
 
-### This repository demonstrates using Google's GenerativeAI (GenAI) API with the Gemini Pro model to generate content based on prompts.
-<br><br>
+## Description
 
-## Getting Started
+#### Gemini Chat App is built using KivyMD, allowing users to interact with an AI model through a chat interface. It leverages GenAI for its conversational capabilities, enabling users to engage in chat-like interactions with the AI.
+<br> 
 
-### Prerequisites
+## Features
 
-- Python 3.9+ installed
-- Access to the Google GenerativeAI API
-- API key stored in a `.env` file
+* Conversational AI: Engage in conversation with an AI model powered by GenAI.
+* Simple Interface: User-friendly chat interface with message history.
+* Send and Receive Messages: Type messages in the input box and receive AI-generated responses.
 <br>
 
-### Installation & Setup
+## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/SetuBaru/Gemni-Python-API.git
-   cd your_repository
-   ```
-   
-2. Install the Gemni Python SDK
-  ```bash
-  pip install -q -U google-generativeai
-  ```
 
-3. Install python-dotenv
+         git clone https://github.com/your-username/gemini-chat-app.git
 
-```bash
-pip install python-dotenv
-```
+2. Install the required dependencies:
 
-4. Get your API key from
-  ```bash
- https://makersuite.google.com/app/apikey
-```
+         pip install -r requirements.txt
 
-5. Add your key to the .venv files GOOGLE_API_KEY VARIABLE
-   ```bash
-   GOOGLE_API_KEY=[PUT YOUR API KEY HERE]
-   ```
-6. Run the main.py file
-   
-  <img width="476" alt="Screenshot 2023-12-14 at 05 24 02" src="https://github.com/SetuBaru/Gemni-Python-API/assets/78774159/00dd790c-e685-4355-ae95-1d57c055b20e">
+3. Run the application:
 
+         python frontend.py
 <br>
 
-#### Special thanks to the people at https://ai.google.dev/tutorials/python_quickstart for their guidance! This project is mostly based of their implementation!
+## Usage
+ * Launch the application (frontend.py) to access the chat interface.
+ * Type your message in the input box and press 'Send' or press 'Enter' to send the message.
+ * The AI-generated responses will appear in the chat interface.
+<br>
+
+## Configuration
+
+Before running the application, ensure you have set up the necessary environment variables:
+
+  * GenAI API Key: [Obtain your GenAI API key](https://makersuite.google.com/app/apikey) and set it in the .env file:
+
+          GOOGLE_API_KEY=your_genai_api_key_here
+
+  * KivyMD and Kivy: Ensure you have the required versions of KivyMD and Kivy installed. Refer to requirements.txt for specific versions.
+<br>
+
+## Contributing
+#### Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or create a pull request.
+License
+<br>
+
+#### This project is licensed under the MIT License - see the LICENSE file for details.
+<br><br>
+
+## Acknowledgments
+   - [KivyMD](https://kivymd.readthedocs.io)
+   - [GenAI](https://ai.google.dev/tutorials/python_quickstart)
+   - [ChatGPT](https://chat.openai.com/)
